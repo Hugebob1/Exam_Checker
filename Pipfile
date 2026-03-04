@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+ipykernel = "*"
+notebook = "*"
+jupyterlab = "*"
+opencv-python = "*"
+pillow = "*"
+pytesseract = "*"
+jiwer = "*"
+datasets = "*"
+matplotlib = "*"
+levenshtein = "*"
+paddlepaddle = "*"
+paddleocr = "*"
+torch = "*"
+torchvision = "*"
+transformers = "*"
+easyocr = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
