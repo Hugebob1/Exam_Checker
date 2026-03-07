@@ -14,12 +14,15 @@ jiwer = "*"
 datasets = "*"
 matplotlib = "*"
 levenshtein = "*"
-paddlepaddle = "*"
-paddleocr = "*"
 torch = "*"
 torchvision = "*"
 transformers = "*"
 easyocr = "*"
+ultralytics = "*"
+imutils = "*"
+huggingface-hub = "*"
+paddlepaddle = "*"
+paddleocr = "==2.8.1"
 
 [dev-packages]
 
