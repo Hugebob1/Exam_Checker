@@ -4,25 +4,27 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-ipykernel = "*"
 notebook = "*"
-jupyterlab = "*"
-opencv-python = "*"
-pillow = "*"
 pytesseract = "*"
 jiwer = "*"
 datasets = "*"
-matplotlib = "*"
 levenshtein = "*"
-torch = "*"
-torchvision = "*"
 transformers = "*"
 easyocr = "*"
-ultralytics = "*"
 imutils = "*"
 huggingface-hub = "*"
 paddlepaddle = "*"
-paddleocr = "==2.8.1"
+jupyterlab = "*"
+ipykernel = "*"
+pillow = "*"
+numpy = "*"
+opencv-python = "*"
+matplotlib = "*"
+torch = "*"
+torchvision = "*"
+surya-ocr = "*"
+ultralytics = "*"
+paddleocr = {extras = ["all"], version = "*"}
 
 [dev-packages]
 
