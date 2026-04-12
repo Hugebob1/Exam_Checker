@@ -1,0 +1,32 @@
+{
+  "zadania": [
+    {
+      "numer_zadania": "1)",
+      "tresc": "A, 2,1B, 3,2B, 4,5D, 5D, 02.02.2023",
+      "pewnosc": 0.92,
+      "uwagi": "Czytelne, jedyna daty"
+    },
+    {
+      "numer_zadania": "6)",
+      "tresc": "B, 7)\nB, 10)\nA",
+      "pewnosc": 0.95,
+      "uwagi": "Struktura piramidalna, kryequiera"
+    },
+    {
+      "numer_zadania": "17) 18)",
+      "tresc": "C, 12,13)\nD, 14)\nB, 16)\nB, 17)\nC, 18)\nD, 19)\nB, 20)\nD",
+      "pewnosc": 0.88,
+      "uwagi": "Jedna z najbardziej złożonych"
+    },
+    {
+      "numer_zadania": "27)",
+      "tresc": "Pragramowanie per uzeranie / bzaraaig: 1) cek do skoczne abamir dummy tapertomu, ulasesu rommi 23)\n4 pang 4) Loser - unigaela [komrza zabytku 25) inwieksamiene obroczar 26) grzma, dzwa 1, pretish 27) Prawn consci pescage test zwienka na podrazyma ones res zmant ch shifting pes he zymat przy sou ji"
+    },
+    {
+      "numer_zadania": "1/ programowanie per zerstomasnir",
+      "tresc": "Pragramowanie per uzeranie (bzaraaig)",
+      "pewnosc": 0.65,
+      "uwagi": "Błędna pisowna 'pragramowanie', niestabilne litery"
+    }
+  ]
+}
