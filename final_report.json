@@ -1,0 +1,223 @@
+{
+    "wynik": "69/135",
+    "procent": "51.11%",
+    "szczegoly": [
+        {
+            "id": "1",
+            "typ": "zamkniete",
+            "zdobyte_punkty": 0,
+            "max_punktów": 1,
+            "komentarz": "bledna"
+        },
+        {
+            "id": "2",
+            "typ": "zamkniete",
+            "zdobyte_punkty": 0,
+            "max_punktów": 1,
+            "komentarz": "bledna"
+        },
+        {
+            "id": "3",
+            "typ": "zamkniete",
+            "zdobyte_punkty": 1,
+            "max_punktów": 1,
+            "komentarz": "poprawna"
+        },
+        {
+            "id": "4",
+            "typ": "zamkniete",
+            "zdobyte_punkty": 1,
+            "max_punktów": 1,
+            "komentarz": "poprawna"
+        },
+        {
+            "id": "5",
+            "typ": "zamkniete",
+            "zdobyte_punkty": 0,
+            "max_punktów": 1,
+            "komentarz": "bledna"
+        },
+        {
+            "id": "6",
+            "typ": "zamkniete",
+            "zdobyte_punkty": 1,
+            "max_punktów": 1,
+            "komentarz": "poprawna"
+        },
+        {
+            "id": "7",
+            "typ": "zamkniete",
+            "zdobyte_punkty": 0,
+            "max_punktów": 1,
+            "komentarz": "bledna"
+        },
+        {
+            "id": "8",
+            "typ": "zamkniete",
+            "zdobyte_punkty": 0,
+            "max_punktów": 1,
+            "komentarz": "bledna"
+        },
+        {
+            "id": "9",
+            "typ": "zamkniete",
+            "zdobyte_punkty": 0,
+            "max_punktów": 1,
+            "komentarz": "bledna"
+        },
+        {
+            "id": "10",
+            "typ": "zamkniete",
+            "zdobyte_punkty": 1,
+            "max_punktów": 1,
+            "komentarz": "poprawna"
+        },
+        {
+            "id": "11",
+            "typ": "zamkniete",
+            "zdobyte_punkty": 0,
+            "max_punktów": 1,
+            "komentarz": "bledna"
+        },
+        {
+            "id": "12",
+            "typ": "zamkniete",
+            "zdobyte_punkty": 0,
+            "max_punktów": 1,
+            "komentarz": "bledna"
+        },
+        {
+            "id": "13",
+            "typ": "zamkniete",
+            "zdobyte_punkty": 0,
+            "max_punktów": 1,
+            "komentarz": "bledna"
+        },
+        {
+            "id": "14",
+            "typ": "zamkniete",
+            "zdobyte_punkty": 0,
+            "max_punktów": 1,
+            "komentarz": "bledna"
+        },
+        {
+            "id": "15",
+            "typ": "zamkniete",
+            "zdobyte_punkty": 1,
+            "max_punktów": 1,
+            "komentarz": "poprawna"
+        },
+        {
+            "id": "16",
+            "typ": "zamkniete",
+            "zdobyte_punkty": 0,
+            "max_punktów": 1,
+            "komentarz": "bledna"
+        },
+        {
+            "id": "17",
+            "typ": "zamkniete",
+            "zdobyte_punkty": 0,
+            "max_punktów": 1,
+            "komentarz": "bledna"
+        },
+        {
+            "id": "18",
+            "typ": "zamkniete",
+            "zdobyte_punkty": 0,
+            "max_punktów": 1,
+            "komentarz": "bledna"
+        },
+        {
+            "id": "19",
+            "typ": "zamkniete",
+            "zdobyte_punkty": 0,
+            "max_punktów": 1,
+            "komentarz": "bledna"
+        },
+        {
+            "id": "20",
+            "typ": "zamkniete",
+            "zdobyte_punkty": 0,
+            "max_punktów": 1,
+            "komentarz": "bledna"
+        },
+        {
+            "id": "21",
+            "typ": "otwarte",
+            "zdobyte_punkty": 3,
+            "max_punktów": 5,
+            "komentarz": "Uczeń wymienił część wymaganych elementów, ale brakuje odniesienia do \"lead-through\", \"walk-through\" oraz \"offline\"."
+        },
+        {
+            "id": "22",
+            "typ": "otwarte",
+            "zdobyte_punkty": 4,
+            "max_punktów": 10,
+            "komentarz": "Uczeń wymienił istotne czujniki, ale nie uwzględnił wszystkich typów eksteroreceptorów."
+        },
+        {
+            "id": "23",
+            "typ": "otwarte",
+            "zdobyte_punkty": 3,
+            "max_punktów": 5,
+            "komentarz": "Uczeń podał liczbę 4, ale nie użył wymaganych słów kluczowych."
+        },
+        {
+            "id": "24",
+            "typ": "otwarte",
+            "zdobyte_punkty": 2,
+            "max_punktów": 5,
+            "komentarz": "Odpowiedź ucznia jest częściowo poprawna, ale brakuje wyjaśnienia kontekstu i pełnej definicji."
+        },
+        {
+            "id": "25",
+            "typ": "otwarte",
+            "zdobyte_punkty": 2,
+            "max_punktów": 10,
+            "komentarz": "Odpowiedź częściowo zgodna z wzorcem, brakuje wyjaśnienia zjawiska."
+        },
+        {
+            "id": "26",
+            "typ": "otwarte",
+            "zdobyte_punkty": 4,
+            "max_punktów": 5,
+            "komentarz": "Uczeń wymienił większość wymaganych elementów, ale pominął \"unikalne tekstury powierzchni\"."
+        },
+        {
+            "id": "27",
+            "typ": "otwarte",
+            "zdobyte_punkty": 5,
+            "max_punktów": 15,
+            "komentarz": "Uczeń wymienił niektóre elementy układu, ale brakuje odniesienia do percepcji, przetwarzania sygnałów i pętli sprzężenia."
+        },
+        {
+            "id": "28",
+            "typ": "otwarte",
+            "zdobyte_punkty": 2,
+            "max_punktów": 10,
+            "komentarz": "Odpowiedź ucznia jest ogólna, ale wskazuje na zrozumienie funkcji czujników w robotach. Brakuje jednak konkretnych przykładów i opisu działania czujników aktywnych."
+        },
+        {
+            "id": "29",
+            "typ": "otwarte",
+            "zdobyte_punkty": 12,
+            "max_punktów": 15,
+            "komentarz": "Odpowiedź ucznia zawiera większość wymaganych elementów, w tym stabilność dynamiczną, teren nieuporządkowany, szybką adaptację i stabilność statyczną. Brakuje jednak bezpośredniego odniesienia do serwonapędów i Boston D"
+        },
+        {
+            "id": "31",
+            "typ": "otwarte",
+            "zdobyte_punkty": 10,
+            "max_punktów": 15,
+            "komentarz": "Uczeń poprawnie opisał odometrię i jej rodzaje, wymienił część wad, ale pominął informacje o wymaganiach i zaletach."
+        },
+        {
+            "id": "32",
+            "typ": "otwarte",
+            "zdobyte_punkty": 17,
+            "max_punktów": 20,
+            "komentarz": "Odpowiedź ucznia jest kompletna i zgodna z wzorcem, choć nieco mniej szczegółowa. Uczeń prawidłowo opisał istotę SLAM, wymienił czujniki i algorytm zamykania pętli."
+        }
+    ]
+}

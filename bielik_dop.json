@@ -1,0 +1,101 @@
+{
+  "klucz": [
+    {"id": "1", "typ": "zamkniete", "wartosc": "A", "punkty": 1},
+    {"id": "2", "typ": "zamkniete", "wartosc": "C", "punkty": 1},
+    {"id": "3", "typ": "zamkniete", "wartosc": "B", "punkty": 1},
+    {"id": "4", "typ": "zamkniete", "wartosc": "D", "punkty": 1},
+    {"id": "5", "typ": "zamkniete", "wartosc": "A", "punkty": 1},
+    {"id": "6", "typ": "zamkniete", "wartosc": "B", "punkty": 1},
+    {"id": "7", "typ": "zamkniete", "wartosc": "C", "punkty": 1},
+    {"id": "8", "typ": "zamkniete", "wartosc": "D", "punkty": 1},
+    {"id": "9", "typ": "zamkniete", "wartosc": "B", "punkty": 1},
+    {"id": "10", "typ": "zamkniete", "wartosc": "A", "punkty": 1},
+    {"id": "11", "typ": "zamkniete", "wartosc": "D", "punkty": 1},
+    {"id": "12", "typ": "zamkniete", "wartosc": "C", "punkty": 1},
+    {"id": "13", "typ": "zamkniete", "wartosc": "B", "punkty": 1},
+    {"id": "14", "typ": "zamkniete", "wartosc": "A", "punkty": 1},
+    {"id": "15", "typ": "zamkniete", "wartosc": "D", "punkty": 1},
+    {"id": "16", "typ": "zamkniete", "wartosc": "C", "punkty": 1},
+    {"id": "17", "typ": "zamkniete", "wartosc": "B", "punkty": 1},
+    {"id": "18", "typ": "zamkniete", "wartosc": "A", "punkty": 1},
+    {"id": "19", "typ": "zamkniete", "wartosc": "D", "punkty": 1},
+    {"id": "20", "typ": "zamkniete", "wartosc": "C", "punkty": 1},
+    {
+      "id": "21",
+      "typ": "otwarte",
+      "metoda_weryfikacji": "slowa_kluczowe",
+      "wartosc": ["bezpośrednie", "lead-through", "walk-through", "offline", "język programowania", "nauczanie"],
+      "punkty": 5
+    },
+    {
+      "id": "22",
+      "typ": "otwarte",
+      "metoda_weryfikacji": "pelna_odpowiedz",
+      "wartosc": "Eksteroreceptory służą do pozyskiwania informacji z otoczenia robota. Przykłady: czujniki wizyjne (kamery), dalmierze ultradźwiękowe, lidary, czujniki dotykowe.",
+      "punkty": 10
+    },
+    {
+      "id": "23",
+      "typ": "otwarte",
+      "metoda_weryfikacji": "slowa_kluczowe",
+      "wartosc": ["4", "cztery", "pary punktów", "homografia"],
+      "punkty": 5
+    },
+    {
+      "id": "24",
+      "typ": "otwarte",
+      "metoda_weryfikacji": "pelna_odpowiedz",
+      "wartosc": "Są to elementy składowe systemu triangulacji aktywnej (często stosowanego w skanerach 3D lub profilometrach).",
+      "punkty": 5
+    },
+    {
+      "id": "25",
+      "typ": "otwarte",
+      "metoda_weryfikacji": "slowa_kluczowe",
+      "wartosc": ["deformacja", "skrzywienie", "geometryczne", "ruchome obiekty", "rolling shutter", "płynięcie obrazu"],
+      "punkty": 10
+    },
+    {
+      "id": "26",
+      "typ": "otwarte",
+      "metoda_weryfikacji": "pelna_odpowiedz",
+      "wartosc": "Przykłady znaczników naturalnych to charakterystyczne elementy otoczenia: krawędzie ścian, framugi drzwi, okna, narożniki budynków lub unikalne tekstury powierzchni.",
+      "punkty": 5
+    },
+    {
+      "id": "27",
+      "typ": "otwarte",
+      "metoda_weryfikacji": "slowa_kluczowe",
+      "wartosc": ["zbieranie informacji", "percepcja", "sensory", "przetwarzanie sygnałów", "pętla sprzężenia", "stan robota", "otoczenie"],
+      "punkty": 15
+    },
+    {
+      "id": "28",
+      "typ": "otwarte",
+      "metoda_weryfikacji": "pelna_odpowiedz",
+      "wartosc": "Czujnik aktywny to taki, który wysyła własną energię w kierunku celu i mierzy jej odbicie. Przykład: czujnik ultradźwiękowy (wysyła falę dźwiękową) lub Lidar (wysyła wiązkę światła).",
+      "punkty": 10
+    },
+    {
+      "id": "29",
+      "typ": "otwarte",
+      "metoda_weryfikacji": "slowa_kluczowe",
+      "wartosc": ["stabilność dynamiczna", "teren nieuporządkowany", "Boston Dynamics", "serwonapędy", "szybka adaptacja", "stabilność statyczna"],
+      "punkty": 15
+    },
+    {
+      "id": "31",
+      "typ": "otwarte",
+      "metoda_weryfikacji": "pelna_odpowiedz",
+      "wartosc": "Odometria to metoda szacowania zmiany pozycji robota na podstawie danych z czujników ruchu (np. enkoderów). Wymagania: robot musi posiadać czujniki obrotu kół oraz znaną geometrię (kinematykę). Zalety: jest tania, działa w czasie rzeczywistym i nie wymaga infrastruktury zewnętrznej. Wady: narastający błąd (dryft), który wynika z poślizgów kół, nierówności terenu oraz błędów systematycznych (np. różna średnica kół).",
+      "punkty": 15
+    },
+    {
+      "id": "32",
+      "typ": "otwarte",
+      "metoda_weryfikacji": "pelna_odpowiedz",
+      "wartosc": "SLAM (Simultaneous Localization and Mapping) to jednoczesna lokalizacja i budowanie mapy. Służy do autonomicznej nawigacji w nieznanym środowisku. Polega na tym, że robot tworzy mapę otoczenia i jednocześnie określa swoje położenie na tej mapie. Wymaga czujników dystansowych (Lidar, kamery głębi, Kinect), dużej mocy obliczeniowej oraz algorytmów do rozpoznawania znanych punktów (zamykanie pętli - loop closure) w celu redukcji błędów odometrii.",
+      "punkty": 20
+    }
+  ]
+}
