@@ -1,58 +1,221 @@
 {
-  "zadania": [
+  "arkusz": [
     {
-      "numer_zadania": "1-20",
-      "tresc": "1) A, 2) B, 3) B, 4) D, 5) D, 6) B, 7) D, 8) B, 9) D, 10) A, 11) C, 12) B, 13) D, 14) C, 15) B, 16) B, 17) C, 18) D, 19) B, 20) D",
-      "pewnosc": 0.95,
+      "id": "1",
+      "typ": "zamkniete",
+      "odpowiedz_user": "D",
+      "pewnosc": 1.0,
       "uwagi": "czytelne"
     },
     {
-      "numer_zadania": "21",
-      "tresc": "Programowanie bezpośrednie",
-      "pewnosc": 0.8,
-      "uwagi": "nieco niewyraźne"
+      "id": "2",
+      "typ": "zamkniete",
+      "odpowiedz_user": "B",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
     },
     {
-      "numer_zadania": "21.2",
-      "tresc": "Programowanie przez uczenie (obserwację)",
-      "pewnosc": 0.7,
-      "uwagi": "trudne do odczytania"
+      "id": "3",
+      "typ": "zamkniete",
+      "odpowiedz_user": "B",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
     },
     {
-      "numer_zadania": "22",
-      "tresc": "Są to czujniki zewnętrzne, służące do badania obrzeży, czujnik temperatury, ultradźwiękowy",
-      "pewnosc": 0.6,
-      "uwagi": "pismo mało czytelne"
+      "id": "4",
+      "typ": "zamkniete",
+      "odpowiedz_user": "D",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
     },
     {
-      "numer_zadania": "23",
-      "tresc": "4 pary",
+      "id": "5",
+      "typ": "zamkniete",
+      "odpowiedz_user": "D",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "6",
+      "typ": "zamkniete",
+      "odpowiedz_user": "B",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "7",
+      "typ": "zamkniete",
+      "odpowiedz_user": "D",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "8",
+      "typ": "zamkniete",
+      "odpowiedz_user": "B",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "9",
+      "typ": "zamkniete",
+      "odpowiedz_user": "D",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "10",
+      "typ": "zamkniete",
+      "odpowiedz_user": "A",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "11",
+      "typ": "zamkniete",
+      "odpowiedz_user": "C",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "12",
+      "typ": "zamkniete",
+      "odpowiedz_user": "B",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "13",
+      "typ": "zamkniete",
+      "odpowiedz_user": "D",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "14",
+      "typ": "zamkniete",
+      "odpowiedz_user": "C",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "15",
+      "typ": "zamkniete",
+      "odpowiedz_user": "D",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "16",
+      "typ": "zamkniete",
+      "odpowiedz_user": "B",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "17",
+      "typ": "zamkniete",
+      "odpowiedz_user": "C",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "18",
+      "typ": "zamkniete",
+      "odpowiedz_user": "D",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "19",
+      "typ": "zamkniete",
+      "odpowiedz_user": "B",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "20",
+      "typ": "zamkniete",
+      "odpowiedz_user": "D",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "21",
+      "typ": "otwarte",
+      "odpowiedz_user": "bezpośrednie, przez pokazywanie, na poziomie zadań, w języku maszynowym, w języku wysokiego poziomu z odpowiednim środowiskiem",
       "pewnosc": 0.9,
       "uwagi": "czytelne"
     },
     {
-      "numer_zadania": "24",
-      "tresc": "laser - wiązka, kamera odczytuje",
-      "pewnosc": 0.7,
-      "uwagi": "niewyraźne"
+      "id": "22",
+      "typ": "otwarte",
+      "odpowiedz_user": "Do pomiarów środowiska zewnętrznego, np. czujnik temperatury i wilgotności powietrza",
+      "pewnosc": 0.95,
+      "uwagi": "czytelne"
     },
     {
-      "numer_zadania": "25",
-      "tresc": "kształcenie obrzeży",
-      "pewnosc": 0.5,
-      "uwagi": "bardzo niewyraźne"
+      "id": "23",
+      "typ": "otwarte",
+      "odpowiedz_user": "4 pary",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
     },
     {
-      "numer_zadania": "26",
-      "tresc": "okno, drzwi, wzór na świecie",
-      "pewnosc": 0.6,
-      "uwagi": "niewyraźne"
+      "id": "24",
+      "typ": "otwarte",
+      "odpowiedz_user": "triangulacji aktywnej",
+      "pewnosc": 0.9,
+      "uwagi": "czytelne"
     },
     {
-      "numer_zadania": "27",
-      "tresc": "Przetwarza bezwzględną wartość fizyczną na pożądany przez nas sygnał wyjściowy",
-      "pewnosc": 0.6,
-      "uwagi": "pismo trudne"
+      "id": "25",
+      "typ": "otwarte",
+      "odpowiedz_user": "Otrzymuje ruchomych obiektów",
+      "pewnosc": 0.8,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "26",
+      "typ": "otwarte",
+      "odpowiedz_user": "okna, drzwi, wnęki w korytarzach, krawędzie ścian i kolumn",
+      "pewnosc": 0.95,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "27",
+      "typ": "otwarte",
+      "odpowiedz_user": "To układ zawierający czujnik, układ kondycjonowania sygnału, mikrokontroler w celu analizy i komunikacji np. DS18B20 termometr",
+      "pewnosc": 0.9,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "28",
+      "typ": "otwarte",
+      "odpowiedz_user": "Zestaw czujników robota (maszyny). Stosuje się je by maszyna mogła zbierać informacje o sobie i otoczeniu.",
+      "pewnosc": 0.95,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "29",
+      "typ": "otwarte",
+      "odpowiedz_user": "Nowoczesne maszyny kroczące są szybsze i stabilniejsze niż maszyny wcześniejsze. Są również bardziej stabilne, nie wymagają \"sterylnego\" środowiska laboratoryjnego, bo radzą sobie na twardych przeszkodach i w terenie. Potrafią utrzymać stabilność nawet pomimo np. kopnięć przez człowieka. Nowoczesne maszyny kroczące potrafią manipulować narzędziami i wykonywać skomplikowane",
+      "pewnosc": 0.9,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "31",
+      "typ": "otwarte",
+      "odpowiedz_user": "Odometria - sposób wyznaczenia pozycji robota. Odometria czysta - jedynie pomiar ilości kroków bądź liczby wykonanych obrotów. Odometria rozszerzona - -||- plus odczyty z żyroskopu lub akcelerometru. Błędy: błąd odległości - suma kroków / liczby obrotów; błąd skrętu - różnica ilości kroków w liczby obrotów; wniosek - każde koło generuje inną wartość wynikającą z nierównej powierzchni. Jest to jedna z najprostszych metod, jednak z upływem czasu obarczona dużym błędem. Błędy możemy podzielić na systematyczne (różnice wielkości kół) i przypadkowe (nierówny teren).",
+      "pewnosc": 0.95,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "32",
+      "typ": "otwarte",
+      "odpowiedz_user": "Metoda SLAM - to jednoczesna lokalizacja oraz mapowanie. Korzysta z odometrii. Robot, opuszczając punkt startowy, rysuje mapę oraz nalicza błąd, który redukuje się po zamknięciu pętli, czyli powrocie do znanego punktu. Korzystać może z kamer, laserów czy Kinecta.",
+      "pewnosc": 0.95,
+      "uwagi": "czytelne"
     }
   ]
 }
