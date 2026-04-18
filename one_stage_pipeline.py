@@ -29,7 +29,7 @@ def ocr_handwriting_one_step(image_path):
         return f"Błąd: {str(e)}"
 
 # --- START ---
-image_file = "tescik.jpg"
+image_file = "dataset_brudny/tescik.jpg"
 print("Rozpoczynam odczyt... na CPU to może zająć od 10 do 30 sekund.")
 wynik = ocr_handwriting_one_step(image_file)
 

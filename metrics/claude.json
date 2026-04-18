@@ -1,0 +1,101 @@
+{
+  "arkusz": [
+    { "id": "1",  "typ": "zamkniete", "odpowiedz_user": "D", "pewnosc": 0.99, "uwagi": "czytelne" },
+    { "id": "2",  "typ": "zamkniete", "odpowiedz_user": "B", "pewnosc": 0.99, "uwagi": "czytelne" },
+    { "id": "3",  "typ": "zamkniete", "odpowiedz_user": "B", "pewnosc": 0.99, "uwagi": "czytelne" },
+    { "id": "4",  "typ": "zamkniete", "odpowiedz_user": "D", "pewnosc": 0.99, "uwagi": "czytelne" },
+    { "id": "5",  "typ": "zamkniete", "odpowiedz_user": "D", "pewnosc": 0.99, "uwagi": "czytelne" },
+    { "id": "6",  "typ": "zamkniete", "odpowiedz_user": "B", "pewnosc": 0.99, "uwagi": "czytelne" },
+    { "id": "7",  "typ": "zamkniete", "odpowiedz_user": "D", "pewnosc": 0.99, "uwagi": "czytelne" },
+    { "id": "8",  "typ": "zamkniete", "odpowiedz_user": "B", "pewnosc": 0.98, "uwagi": "czytelne" },
+    { "id": "9",  "typ": "zamkniete", "odpowiedz_user": "D", "pewnosc": 0.99, "uwagi": "czytelne" },
+    { "id": "10", "typ": "zamkniete", "odpowiedz_user": "A", "pewnosc": 0.99, "uwagi": "czytelne" },
+    { "id": "11", "typ": "zamkniete", "odpowiedz_user": "C", "pewnosc": 0.99, "uwagi": "czytelne" },
+    { "id": "12", "typ": "zamkniete", "odpowiedz_user": "B", "pewnosc": 0.99, "uwagi": "czytelne" },
+    { "id": "13", "typ": "zamkniete", "odpowiedz_user": "D", "pewnosc": 0.99, "uwagi": "czytelne" },
+    { "id": "14", "typ": "zamkniete", "odpowiedz_user": "C", "pewnosc": 0.99, "uwagi": "czytelne" },
+    { "id": "15", "typ": "zamkniete", "odpowiedz_user": "D", "pewnosc": 0.99, "uwagi": "czytelne" },
+    { "id": "16", "typ": "zamkniete", "odpowiedz_user": "B", "pewnosc": 0.98, "uwagi": "czytelne" },
+    { "id": "17", "typ": "zamkniete", "odpowiedz_user": "C", "pewnosc": 0.99, "uwagi": "czytelne" },
+    { "id": "18", "typ": "zamkniete", "odpowiedz_user": "D", "pewnosc": 0.99, "uwagi": "czytelne" },
+    { "id": "19", "typ": "zamkniete", "odpowiedz_user": "B", "pewnosc": 0.99, "uwagi": "czytelne" },
+    { "id": "20", "typ": "zamkniete", "odpowiedz_user": "D", "pewnosc": 0.99, "uwagi": "czytelne" },
+    {
+      "id": "21",
+      "typ": "otwarte",
+      "odpowiedz_user": "bezpośredni, przez połączenie, na poziomie zadań, w języku 1 maszynowym, w języku wysokiego poziomu z odpowiednim środowiskiem",
+      "pewnosc": 0.82,
+      "uwagi": "fragment nieczytelny — kilka słów trudnych do odczytania"
+    },
+    {
+      "id": "22",
+      "typ": "otwarte",
+      "odpowiedz_user": "Do pomiaru środowiska zewnętrznego np. czujnik temperatury, wilgotności powietrza.",
+      "pewnosc": 0.88,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "26",
+      "typ": "otwarte",
+      "odpowiedz_user": "okna, drzwi, wnęki w korytarzu, wewnętrzne ściany i kolumny",
+      "pewnosc": 0.80,
+      "uwagi": "odpowiedź wpisana w obrębie zadania 22, fragment nieczytelny"
+    },
+    {
+      "id": "23",
+      "typ": "zamkniete",
+      "odpowiedz_user": "4",
+      "pewnosc": 0.90,
+      "uwagi": "odpowiedź liczbowa — liczba par"
+    },
+    {
+      "id": "24",
+      "typ": "otwarte",
+      "odpowiedz_user": "triangulacji aktywnej",
+      "pewnosc": 0.88,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "25",
+      "typ": "otwarte",
+      "odpowiedz_user": "Rozmiar ruchomych obiektów",
+      "pewnosc": 0.85,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "27",
+      "typ": "otwarte",
+      "odpowiedz_user": "To układ zawierający czujniki, układ kondycjonowania sygnału i mikrokontroler w celu akwizycji i komunikacji np. DS18B20 termometr",
+      "pewnosc": 0.78,
+      "uwagi": "jedno słowo przekreślone, dopisek na marginesie"
+    },
+    {
+      "id": "28",
+      "typ": "otwarte",
+      "odpowiedz_user": "Zestaw czujników robota — stosuje się je by maszyna mogła zbierać informacje o sobie i o otoczeniu.",
+      "pewnosc": 0.85,
+      "uwagi": "dopisek nad linią: 'dużo (maszyny)'"
+    },
+    {
+      "id": "29",
+      "typ": "otwarte",
+      "odpowiedz_user": "Nowoczesne maszyny liczące są szybsze i stanowią większą wartość niż maszyny wcześniejsze. Są również bardziej stabilne, nie wymagają 'sterylnego' środowiska laboratoryjnego bo radzą sobie na terenie, w terenie. Potrafią utrzymać stabilność nawet pomimo np. kopnięcia przez człowieka. Nowoczesne maszyny liczące potrafią manipulować narzędziami i wykonywać skomplikowane [nieczytelne]",
+      "pewnosc": 0.75,
+      "uwagi": "ostatnie słowo/zdanie urwane lub nieczytelne"
+    },
+    {
+      "id": "31",
+      "typ": "otwarte",
+      "odpowiedz_user": "Odometria — sposób wyznaczenia pozycji robota. Odometria prosta — jedynie pamięta ilość kroków bądź liczby wykonanych obrotów. Odometria rozszerzona — to plus odczyty z żyroskopu lub akcelerometru. Błędy: błąd odległości — suma kroków i liczby obrotów; błąd długu — różnica ilości kroków i liczby obrotów; wnos — każde koło generuje inną wartość wynikającą z nierównej powierzchni. Jest to jedna z najważniejszych metod jednak z upływem czasu obarczona dużym błędem. Błędy możemy podzielić na systematyczne (różnica wielkości kół) i przypadkowe (nierówny teren).",
+      "pewnosc": 0.80,
+      "uwagi": "kilka fragmentów trudnych do odczytania, zrekonstruowane na podstawie kontekstu"
+    },
+    {
+      "id": "32",
+      "typ": "otwarte",
+      "odpowiedz_user": "Metoda SLAM — to jednoczesna lokalizacja oraz mapowanie. Korzysta z odometrii. Robot opatrując punkt startowy buduje mapę oraz naliwa błąd, który redukuje się po zamknięciu pętli, czyli powrotu do znanego punktu. Korzystać może z kamer, laserów, czy Kinecta.",
+      "pewnosc": 0.82,
+      "uwagi": "słowo 'naliwa' prawdopodobnie 'nalicza' — fragment nieczytelny"
+    }
+  ]
+}

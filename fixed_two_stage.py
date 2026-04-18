@@ -169,7 +169,7 @@ def run_pipeline(path, recognizer="trocr", kraken_model_path=None):
 
 
 if __name__ == "__main__":
-    img_path = "test.png"
+    img_path = "dataset_brudny/test.png"
 
     print("=== TrOCR ===")
     print(run_pipeline(img_path, recognizer="trocr"))

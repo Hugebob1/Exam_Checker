@@ -1,0 +1,221 @@
+{
+  "arkusz": [
+    {
+      "id": "1",
+      "typ": "zamkniete",
+      "odpowiedz_user": "D",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "2",
+      "typ": "zamkniete",
+      "odpowiedz_user": "B",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "3",
+      "typ": "zamkniete",
+      "odpowiedz_user": "B",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "4",
+      "typ": "zamkniete",
+      "odpowiedz_user": "D",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "5",
+      "typ": "zamkniete",
+      "odpowiedz_user": "D",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "6",
+      "typ": "zamkniete",
+      "odpowiedz_user": "B",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "7",
+      "typ": "zamkniete",
+      "odpowiedz_user": "D",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "8",
+      "typ": "zamkniete",
+      "odpowiedz_user": "B",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "9",
+      "typ": "zamkniete",
+      "odpowiedz_user": "D",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "10",
+      "typ": "zamkniete",
+      "odpowiedz_user": "A",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "11",
+      "typ": "zamkniete",
+      "odpowiedz_user": "C",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "12",
+      "typ": "zamkniete",
+      "odpowiedz_user": "B",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "13",
+      "typ": "zamkniete",
+      "odpowiedz_user": "D",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "14",
+      "typ": "zamkniete",
+      "odpowiedz_user": "C",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "15",
+      "typ": "zamkniete",
+      "odpowiedz_user": "D",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "16",
+      "typ": "zamkniete",
+      "odpowiedz_user": "B",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "17",
+      "typ": "zamkniete",
+      "odpowiedz_user": "C",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "18",
+      "typ": "zamkniete",
+      "odpowiedz_user": "D",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "19",
+      "typ": "zamkniete",
+      "odpowiedz_user": "B",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "20",
+      "typ": "zamkniete",
+      "odpowiedz_user": "D",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "21",
+      "typ": "otwarte",
+      "odpowiedz_user": "bezpośrednie, przez pokazywanie, na poziomie zadań, w języku maszynowym, w języku wysokiego poziomu z odpowiednim środowiskiem",
+      "pewnosc": 0.74,
+      "uwagi": "fragment miejscami mało czytelny"
+    },
+    {
+      "id": "22",
+      "typ": "otwarte",
+      "odpowiedz_user": "To warunki środowiska zewnętrznego, np. czujnik temperatury i wilgotności powietrza",
+      "pewnosc": 0.78,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "23",
+      "typ": "otwarte",
+      "odpowiedz_user": "4 pary",
+      "pewnosc": 0.95,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "24",
+      "typ": "otwarte",
+      "odpowiedz_user": "Manipulacja: aktywny",
+      "pewnosc": 0.86,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "25",
+      "typ": "otwarte",
+      "odpowiedz_user": "Otrzymywanie ruchomych obiektów",
+      "pewnosc": 0.6,
+      "uwagi": "możliwa nieczytelność jednego słowa"
+    },
+    {
+      "id": "26",
+      "typ": "otwarte",
+      "odpowiedz_user": "obrót, drgania, błędy w komponentach, błędy stanów i kolumn",
+      "pewnosc": 0.55,
+      "uwagi": "częściowo nieczytelne"
+    },
+    {
+      "id": "27",
+      "typ": "otwarte",
+      "odpowiedz_user": "To układ zawierający czujniki, układ kondycjonowania sygnału i mikrokontroler w celu analizy i komunikacji, np. DS18B20 termometr",
+      "pewnosc": 0.9,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "28",
+      "typ": "otwarte",
+      "odpowiedz_user": "Zestaw czujników robota. Stosuje się je, by maszyna mogła zbierać informacje o sobie i o otoczeniu",
+      "pewnosc": 0.88,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "29",
+      "typ": "otwarte",
+      "odpowiedz_user": "Nowoczesne maszyny kroczące są szybkie i stabilne nawet w trudnym terenie. Są nawet bardziej stabilne, nie wymagają specjalnego środowiska laboratoryjnego, bo radzą sobie na terenie, przeszkodach i w terenie. Potrafią utrzymać stabilność nawet pomimo [nieczytelne] przez czujniki. Nowoczesne maszyny korzystają z manipulacji ręcznej i wykonują skomplikowane",
+      "pewnosc": 0.52,
+      "uwagi": "kilka fragmentów nieczytelnych"
+    },
+    {
+      "id": "31",
+      "typ": "otwarte",
+      "odpowiedz_user": "Odometria – sposób wyznaczenia pozycji robota. Odometria czysta – jedynie pomiar ilości kroków bądź liczby wykonanych obrotów. Odometria rozszerzona – IMU plus odczyty z żyroskopu lub akcelerometru. Błędy: błąd odległości – suma kroków/liczby obrotów; błąd skrętu – różnica ilości kroków między kołami; ślizg – każde koło generuje inną wartość wynikającą z nierównej powierzchni. Jest to jedna z najprostszych metod, jednak z upływem czasu obserwowany dokładnie błędu. Błędy możemy podzielić na systematyczne (różnica wielkości kół) i przypadkowe (nierówność terenu).",
+      "pewnosc": 0.8,
+      "uwagi": "drobne nieczytelności, sens zachowany"
+    },
+    {
+      "id": "32",
+      "typ": "otwarte",
+      "odpowiedz_user": "Metoda SLAM – to jednoczesna lokalizacja oraz mapowanie. Korzysta z odometrii. Robot, opuszczając punkt startowy, rysuje mapę oraz określa lokalizację i błędy redukują się po zamknięciu pętli i powrocie do znanego punktu. Korzystać może z kamer, laserów czy Kinecta.",
+      "pewnosc": 0.93,
+      "uwagi": "czytelne"
+    }
+  ]
+}

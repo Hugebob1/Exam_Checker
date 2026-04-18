@@ -62,7 +62,9 @@ class Ocr:
 
         return json.loads(response.text)
 
-
+bot = Ocr()
+res = bot.read_exam_with_confidence("anonim/p12.jpg")
+print(res)
 # if __name__ == "__main__":
 #     foto_path = "anonim/p2.png"
 #

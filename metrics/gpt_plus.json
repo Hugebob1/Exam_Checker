@@ -1,0 +1,221 @@
+{
+  "arkusz": [
+    {
+      "id": "1",
+      "typ": "zamkniete",
+      "odpowiedz_user": "D",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "2",
+      "typ": "zamkniete",
+      "odpowiedz_user": "B",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "3",
+      "typ": "zamkniete",
+      "odpowiedz_user": "B",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "4",
+      "typ": "zamkniete",
+      "odpowiedz_user": "D",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "5",
+      "typ": "zamkniete",
+      "odpowiedz_user": "D",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "6",
+      "typ": "zamkniete",
+      "odpowiedz_user": "B",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "7",
+      "typ": "zamkniete",
+      "odpowiedz_user": "D",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "8",
+      "typ": "zamkniete",
+      "odpowiedz_user": "B",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "9",
+      "typ": "zamkniete",
+      "odpowiedz_user": "D",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "10",
+      "typ": "zamkniete",
+      "odpowiedz_user": "A",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "11",
+      "typ": "zamkniete",
+      "odpowiedz_user": "C",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "12",
+      "typ": "zamkniete",
+      "odpowiedz_user": "B",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "13",
+      "typ": "zamkniete",
+      "odpowiedz_user": "D",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "14",
+      "typ": "zamkniete",
+      "odpowiedz_user": "C",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "15",
+      "typ": "zamkniete",
+      "odpowiedz_user": "D",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "16",
+      "typ": "zamkniete",
+      "odpowiedz_user": "B",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "17",
+      "typ": "zamkniete",
+      "odpowiedz_user": "C",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "18",
+      "typ": "zamkniete",
+      "odpowiedz_user": "D",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "19",
+      "typ": "zamkniete",
+      "odpowiedz_user": "B",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "20",
+      "typ": "zamkniete",
+      "odpowiedz_user": "D",
+      "pewnosc": 1.0,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "21",
+      "typ": "otwarte",
+      "odpowiedz_user": "bezpośredni, przez pokazywanie, na poziomie zadań, w języku maszynowym, w języku wysokiego poziomu z odpowiednim środowiskiem",
+      "pewnosc": 0.71,
+      "uwagi": "jedno wyrażenie średnio czytelne"
+    },
+    {
+      "id": "22",
+      "typ": "otwarte",
+      "odpowiedz_user": "Do pomiarów środowiska zewnętrznego, np. czujnik temperatury i wilgotności powietrza.",
+      "pewnosc": 0.9,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "23",
+      "typ": "otwarte",
+      "odpowiedz_user": "4 pary",
+      "pewnosc": 0.99,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "24",
+      "typ": "otwarte",
+      "odpowiedz_user": "triangulacji: aktywny",
+      "pewnosc": 0.92,
+      "uwagi": "czytelne"
+    },
+    {
+      "id": "25",
+      "typ": "otwarte",
+      "odpowiedz_user": "Rozmycie ruchomych obiektów",
+      "pewnosc": 0.87,
+      "uwagi": "pierwsze słowo dość czytelne, ale zapis niestaranny"
+    },
+    {
+      "id": "26",
+      "typ": "otwarte",
+      "odpowiedz_user": "okna, drzwi, wnęki w korytarzach, krawędzie ścian i kolumn",
+      "pewnosc": 0.82,
+      "uwagi": "końcówka jednego wyrazu może być odmieniona niejednoznacznie"
+    },
+    {
+      "id": "27",
+      "typ": "otwarte",
+      "odpowiedz_user": "To [nieczytelne] układ zawierający czujnik, układ kondycjonowania sygnału, mikrokontroler w celu analizy i komunikacji, np. DS18B20 termometr",
+      "pewnosc": 0.62,
+      "uwagi": "jeden wyraz skreślony/nieczytelny"
+    },
+    {
+      "id": "28",
+      "typ": "otwarte",
+      "odpowiedz_user": "Zestaw czujników robota. Stosuje się je, by maszyna mogła zebrać informacje o sobie i o otoczeniu.",
+      "pewnosc": 0.83,
+      "uwagi": "nad wyrazem „robota” dopisek: „danego (maszyny)”"
+    },
+    {
+      "id": "29",
+      "typ": "otwarte",
+      "odpowiedz_user": "Nowoczesne maszyny kroczące są szybsze i stawiają większe kroki niż maszyny wcześniejsze. Są również bardziej stabilne, nie wymagają „sterylnego” środowiska laboratoryjnego, bo radzą sobie na torach przeszkód i w terenie. Potrafią utrzymać stabilność nawet pomimo np. kopnięć przez człowieka. Nowoczesne maszyny kroczące potrafią manipulować narzędziami i wykonywać skomplikowane",
+      "pewnosc": 0.78,
+      "uwagi": "ostatnia część zdania ucięta na dole strony"
+    },
+    {
+      "id": "31",
+      "typ": "otwarte",
+      "odpowiedz_user": "Odometria - sposób wyznaczenia pozycji robota. Odometria czysta - jedynie pomiar ilości kroków bądź liczby wykonanych obrotów. Odometria rozszerzona - -||- plus odczyty z żyroskopu lub akcelerometru. Błędy: błąd odległości - suma kroków / liczby obrotów, błąd skrętu - różnica ilości kroków czy liczby obrotów, wznos - każde koło generuje inną wartość wynikającą z nierównej powierzchni. Jest to jedna z najprostszych metod, jednak z upływem czasu obarczona dużym błędem. Błędy możemy podzielić na systematyczne (różnica wielkości kół) i przypadkowe (nierówny teren).",
+      "pewnosc": 0.82,
+      "uwagi": "w jednym miejscu pojedyncze słowo może brzmieć „wznos” lub podobnie"
+    },
+    {
+      "id": "32",
+      "typ": "otwarte",
+      "odpowiedz_user": "Metoda SLAM - to jednoczesna lokalizacja oraz mapowanie. Korzysta z odometrii. Robot opuszczając punkt startowy rysuje mapę oraz nalicza błąd, który redukuje się po zamknięciu pętli, czyli powrotu do znanego punktu. Korzystać może z kamer, laserów, czy Kinecta.",
+      "pewnosc": 0.86,
+      "uwagi": "czytelne"
+    }
+  ]
+}

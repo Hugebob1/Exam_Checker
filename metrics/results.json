@@ -1,0 +1,32 @@
+{
+    "Claude": {
+        "accuracy_closed": 95.24,
+        "avg_wer_open": 0.1868,
+        "avg_similarity_open": 0.8181
+    },
+    "GPT": {
+        "accuracy_closed": 100.0,
+        "avg_wer_open": 0.2824,
+        "avg_similarity_open": 0.7646
+    },
+    "GPT Plus": {
+        "accuracy_closed": 100.0,
+        "avg_wer_open": 0.0863,
+        "avg_similarity_open": 0.9556
+    },
+    "Gemini 3 Pro": {
+        "accuracy_closed": 100.0,
+        "avg_wer_open": 0.051,
+        "avg_similarity_open": 0.9573
+    },
+    "Gemini 3 Fast": {
+        "accuracy_closed": 100.0,
+        "avg_wer_open": 0.0692,
+        "avg_similarity_open": 0.951
+    },
+    "Gemini 3.1 flash api": {
+        "accuracy_closed": 100.0,
+        "avg_wer_open": 0.0646,
+        "avg_similarity_open": 0.8815
+    }
+}

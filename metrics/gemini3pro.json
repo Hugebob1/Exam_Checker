@@ -1,0 +1,221 @@
+{
+"arkusz": [
+{
+"id": "1",
+"typ": "zamkniete",
+"odpowiedz_user": "D",
+"pewnosc": 1.0,
+"uwagi": "czytelne"
+},
+{
+"id": "2",
+"typ": "zamkniete",
+"odpowiedz_user": "B",
+"pewnosc": 1.0,
+"uwagi": "czytelne"
+},
+{
+"id": "3",
+"typ": "zamkniete",
+"odpowiedz_user": "B",
+"pewnosc": 1.0,
+"uwagi": "czytelne"
+},
+{
+"id": "4",
+"typ": "zamkniete",
+"odpowiedz_user": "D",
+"pewnosc": 1.0,
+"uwagi": "czytelne"
+},
+{
+"id": "5",
+"typ": "zamkniete",
+"odpowiedz_user": "D",
+"pewnosc": 1.0,
+"uwagi": "czytelne"
+},
+{
+"id": "6",
+"typ": "zamkniete",
+"odpowiedz_user": "B",
+"pewnosc": 1.0,
+"uwagi": "czytelne"
+},
+{
+"id": "7",
+"typ": "zamkniete",
+"odpowiedz_user": "D",
+"pewnosc": 1.0,
+"uwagi": "czytelne"
+},
+{
+"id": "8",
+"typ": "zamkniete",
+"odpowiedz_user": "B",
+"pewnosc": 1.0,
+"uwagi": "czytelne"
+},
+{
+"id": "9",
+"typ": "zamkniete",
+"odpowiedz_user": "D",
+"pewnosc": 1.0,
+"uwagi": "czytelne"
+},
+{
+"id": "10",
+"typ": "zamkniete",
+"odpowiedz_user": "A",
+"pewnosc": 1.0,
+"uwagi": "czytelne"
+},
+{
+"id": "11",
+"typ": "zamkniete",
+"odpowiedz_user": "C",
+"pewnosc": 1.0,
+"uwagi": "czytelne"
+},
+{
+"id": "12",
+"typ": "zamkniete",
+"odpowiedz_user": "B",
+"pewnosc": 1.0,
+"uwagi": "czytelne"
+},
+{
+"id": "13",
+"typ": "zamkniete",
+"odpowiedz_user": "D",
+"pewnosc": 1.0,
+"uwagi": "czytelne"
+},
+{
+"id": "14",
+"typ": "zamkniete",
+"odpowiedz_user": "C",
+"pewnosc": 1.0,
+"uwagi": "czytelne"
+},
+{
+"id": "15",
+"typ": "zamkniete",
+"odpowiedz_user": "D",
+"pewnosc": 1.0,
+"uwagi": "czytelne"
+},
+{
+"id": "16",
+"typ": "zamkniete",
+"odpowiedz_user": "B",
+"pewnosc": 1.0,
+"uwagi": "czytelne"
+},
+{
+"id": "17",
+"typ": "zamkniete",
+"odpowiedz_user": "C",
+"pewnosc": 1.0,
+"uwagi": "czytelne"
+},
+{
+"id": "18",
+"typ": "zamkniete",
+"odpowiedz_user": "D",
+"pewnosc": 1.0,
+"uwagi": "czytelne"
+},
+{
+"id": "19",
+"typ": "zamkniete",
+"odpowiedz_user": "B",
+"pewnosc": 1.0,
+"uwagi": "czytelne"
+},
+{
+"id": "20",
+"typ": "zamkniete",
+"odpowiedz_user": "D",
+"pewnosc": 1.0,
+"uwagi": "czytelne"
+},
+{
+"id": "21",
+"typ": "otwarte",
+"odpowiedz_user": "bezpośrednie , przez pokazywanie , na poziomie zadań , w języku maszynowym , w języku wysokiego poziomu z odpowiednim środowiskiem",
+"pewnosc": 0.95,
+"uwagi": "czytelne"
+},
+{
+"id": "22",
+"typ": "otwarte",
+"odpowiedz_user": "Do pomiarów środowiska zewnętrznego, np. czujnik temperatury i wilgotności powietrza.",
+"pewnosc": 0.85,
+"uwagi": "czytelne, fragment trudny do odczytania ('Do pomiarów' czy 'To parametry')"
+},
+{
+"id": "23",
+"typ": "otwarte",
+"odpowiedz_user": "4 pary",
+"pewnosc": 1.0,
+"uwagi": "czytelne"
+},
+{
+"id": "24",
+"typ": "otwarte",
+"odpowiedz_user": "triangulacji aktywnej",
+"pewnosc": 1.0,
+"uwagi": "czytelne"
+},
+{
+"id": "25",
+"typ": "otwarte",
+"odpowiedz_user": "Rozmiar ruchomych obiektów",
+"pewnosc": 0.95,
+"uwagi": "czytelne"
+},
+{
+"id": "26",
+"typ": "otwarte",
+"odpowiedz_user": "okna, drzwi, wnęki w korytarzach, krawędzie ścian i kolumn",
+"pewnosc": 0.95,
+"uwagi": "czytelne"
+},
+{
+"id": "27",
+"typ": "otwarte",
+"odpowiedz_user": "To układ zawierający czujnik, układ kondycjonowania sygnału i mikrokontroler w celu analizy i komunikacji np. DS18B20 termometr",
+"pewnosc": 0.9,
+"uwagi": "czytelne, skreślone słowo przed 'układ'"
+},
+{
+"id": "28",
+"typ": "otwarte",
+"odpowiedz_user": "Zestaw czujników robota. Stosuje się je by maszyna mogła zbierać informacje o sobie i o otoczeniu.",
+"pewnosc": 0.85,
+"uwagi": "czytelne, dopisek/skreślenie nad słowem robota"
+},
+{
+"id": "29",
+"typ": "otwarte",
+"odpowiedz_user": "Nowoczesne maszyny kroczące są szybsze i stawiają większe kroki niż maszyny wcześniejsze. Są również bardziej stabilne, nie wymagają „sterylnego” środowiska laboratoryjnego bo radzą sobie na torach przeszkód i w terenie. Potrafią utrzymać stabilność nawet pomimo np. kopnięć przez człowieka. Nowoczesne maszyny kroczące potrafią manipulować narzędziami i wykonywać skomplikowane",
+"pewnosc": 0.95,
+"uwagi": "tekst urwany na końcu strony"
+},
+{
+"id": "31",
+"typ": "otwarte",
+"odpowiedz_user": "Odometria - sposób wyznaczenia pozycji robota\nodometria czysta - jedynie pomiar ilości kroków bądź liczby wykonanych obrotów\nodometria rozszerzona - -||- plus odczyty z żyroskopu lub akcelerometru.\nBłędy:\nBłąd odległości - suma kroków / liczby obrotów\nBłąd skrętu - różnica ilości kroków / liczby obrotów\nunos - każde koło generuje inną wartość wynikającą z nierównej powierzchni\nJest to jedna z najprostszych metod jednak z upływem czasu obarczona dużym błędem\nBłędy możemy podzielić na systematyczne (różnica wielkości kół) i przypadkowe (nierówny teren)",
+"pewnosc": 0.9,
+"uwagi": "czytelne"
+},
+{
+"id": "32",
+"typ": "otwarte",
+"odpowiedz_user": "Metoda SLAM - to jednoczesna lokalizacja oraz mapowanie. Korzysta z odometrii. Robot opuszczając punkt startowy rysuje mapę oraz nalicza błąd, który redukuje się po zamknięciu pętli, czyli powrotu do znanego punktu. Korzystać może z kamer, laserów, czy Kinecta.",
+"pewnosc": 0.95,
+"uwagi": "czytelne"
+}
+]
+}

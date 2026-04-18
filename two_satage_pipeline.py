@@ -124,5 +124,5 @@ def clean_memory():
         torch.cuda.empty_cache()
     print("Memory cleaned!")
 
-print(gen_predictions("test.png"))
+print(gen_predictions("dataset_brudny/test.png"))
 #clean_memory()
