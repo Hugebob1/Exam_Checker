@@ -204,6 +204,13 @@
       "uwagi": "czytelne"
     },
     {
+      "id": "30",
+      "typ": "otwarte",
+      "odpowiedz_user": "1) Punktowanie płaskiego obrazu z dużą ilością punktów charakterystycznych 2) Robienie dokładnych pomiarów 3) Zdjęcia - co najmniej 2, najlepiej od 20 do 100, co najmniej w odległości 50 cm od kamery, tak aby obraz był całkowity oraz zrobione z różnej odległości i kątów 4) Przetwarzanie tych obrazów poprzez algorytm w Matlab.",
+      "pewnosc": 0.9,
+      "uwagi": "czytelne"
+    },
+    {
       "id": "31",
       "typ": "otwarte",
       "odpowiedz_user": "Odometria - sposób wyznaczenia pozycji robota. Odometria czysta - jedynie pomiar ilości kroków bądź liczby wykonanych obrotów. Odometria rozszerzona - -||- plus odczyty z żyroskopu lub akcelerometru. Błędy: błąd odległości - suma kroków / liczby obrotów; błąd skrętu - różnica ilości kroków w liczby obrotów; wniosek - każde koło generuje inną wartość wynikającą z nierównej powierzchni. Jest to jedna z najprostszych metod, jednak z upływem czasu obarczona dużym błędem. Błędy możemy podzielić na systematyczne (różnice wielkości kół) i przypadkowe (nierówny teren).",

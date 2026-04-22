@@ -23,79 +23,86 @@
     {
       "id": "21",
       "typ": "otwarte",
-      "metoda_weryfikacji": "slowa_kluczowe",
-      "wartosc": ["bezpośrednie", "lead-through", "walk-through", "offline", "język programowania", "nauczanie"],
-      "punkty": 5
+      "metoda_weryfikacji": "pelna_odpowiedz",
+      "wartosc": "Sposoby programowania maszyn to: uczenie przez pokazywanie - realizowane jest przez odpowiednio zdefiniowany interfejs użytkownika; programowanie na poziomie zadań - polega na wyznaczaniu celu bez wyszczególniania operacji prowadzących do tego celu; programowanie bezpośrednie - realizowane w języku wysokiego poziomu.",
+      "punkty": 1
     },
     {
       "id": "22",
       "typ": "otwarte",
       "metoda_weryfikacji": "pelna_odpowiedz",
-      "wartosc": "Eksteroreceptory służą do pozyskiwania informacji z otoczenia robota. Przykłady: czujniki wizyjne (kamery), dalmierze ultradźwiękowe, lidary, czujniki dotykowe.",
-      "punkty": 10
+      "wartosc": "Eksteroreceptory: receptory odbiorcze pozwalające na rejestrowanie zmian zachodzących w środowisku zewnętrznym. Pozwalają na realizację pomiaru zewnętrznej wielkości fizycznej. Przykłady: Pomiar temperatury otoczenia, natężenia światła, ciśnienia atmosferycznego.",
+      "punkty": 1
     },
     {
       "id": "23",
       "typ": "otwarte",
       "metoda_weryfikacji": "slowa_kluczowe",
       "wartosc": ["4", "cztery", "pary punktów", "homografia"],
-      "punkty": 5
+      "punkty": 1
     },
     {
       "id": "24",
       "typ": "otwarte",
       "metoda_weryfikacji": "pelna_odpowiedz",
-      "wartosc": "Są to elementy składowe systemu triangulacji aktywnej (często stosowanego w skanerach 3D lub profilometrach).",
-      "punkty": 5
+      "wartosc": "Linijka laserowa i kamera są elementami systemu wizyjnego aktywnego do pomiaru 3D, najczęściej systemu aktywnej triangulacji laserowej.",
+      "punkty": 1
     },
     {
       "id": "25",
       "typ": "otwarte",
-      "metoda_weryfikacji": "slowa_kluczowe",
-      "wartosc": ["deformacja", "skrzywienie", "geometryczne", "ruchome obiekty", "rolling shutter", "płynięcie obrazu"],
-      "punkty": 10
+      "metoda_weryfikacji": "pelna_odpowiedz",
+      "wartosc": "Podczas ruchu kamery lub obserwowanego obiektu pojawiają się charakterystyczne zniekształcenia geometryczne: pochylenie pionowych krawędzi, 'wyginanie' obiektów, deformacje śmigieł. Efekt trzęsącej się galarety.",
+      "punkty": 1
     },
     {
       "id": "26",
       "typ": "otwarte",
       "metoda_weryfikacji": "pelna_odpowiedz",
-      "wartosc": "Przykłady znaczników naturalnych to charakterystyczne elementy otoczenia: krawędzie ścian, framugi drzwi, okna, narożniki budynków lub unikalne tekstury powierzchni.",
-      "punkty": 5
+      "wartosc": "Przykłady znaczników naturalnych: charakterystyczne narożniki budynków, krawędzie drzwi i okien, tekstura ścian, sufitu lub podłogi.",
+      "punkty": 1
     },
     {
       "id": "27",
       "typ": "otwarte",
-      "metoda_weryfikacji": "slowa_kluczowe",
-      "wartosc": ["zbieranie informacji", "percepcja", "sensory", "przetwarzanie sygnałów", "pętla sprzężenia", "stan robota", "otoczenie"],
-      "punkty": 15
+      "metoda_weryfikacji": "pelna_odpowiedz",
+      "wartosc": "Układ sensoryczny to zespół czujników wraz z elektroniką, interfejsami, algorytmami przetwarzania i interpretacji danych, służący do pozyskiwania informacji o robocie i jego otoczeniu. Stosuje się je, aby robot mógł postrzegać stan własny i środowiska, co pozwala na lokalizację, omijanie przeszkód i autonomiczną pracę. Zwiększa autonomię, dokładność, adaptacyjność i bezpieczeństwo działania robota.",
+      "punkty": 4
     },
     {
       "id": "28",
       "typ": "otwarte",
       "metoda_weryfikacji": "pelna_odpowiedz",
-      "wartosc": "Czujnik aktywny to taki, który wysyła własną energię w kierunku celu i mierzy jej odbicie. Przykład: czujnik ultradźwiękowy (wysyła falę dźwiękową) lub Lidar (wysyła wiązkę światła).",
-      "punkty": 10
+      "wartosc": "Czujnik aktywny to taki, który sam wysyła sygnał do otoczenia, a potem odbiera jego odbicie i na tej podstawie wyznacza informację o obiektach. Przykład: sonar ultradźwiękowy, lidar (wysyła wiązkę laserową), radar (fale radiowe).",
+      "punkty": 4
     },
     {
       "id": "29",
       "typ": "otwarte",
-      "metoda_weryfikacji": "slowa_kluczowe",
-      "wartosc": ["stabilność dynamiczna", "teren nieuporządkowany", "Boston Dynamics", "serwonapędy", "szybka adaptacja", "stabilność statyczna"],
-      "punkty": 15
+      "metoda_weryfikacji": "pelna_odpowiedz",
+      "wartosc": "Najnowocześniejsze maszyny kroczące wyposażone są w lekkie napędy, rozbudowane układy sensoryczne oraz sterowanie oparte na modelach dynamiki. Ich lokomocja opiera się na planowaniu kontaktów nóg z podłożem i stabilizacji dynamicznej. Różnią się od wczesnych robotów szybkością, dynamiką i zdolnością do pracy w nieznanym, nierównym terenie (brak quasi-statyki).",
+      "punkty": 4
+    },
+    {
+      "id": "30",
+      "typ": "otwarte",
+      "metoda_weryfikacji": "pelna_odpowiedz",
+      "wartosc": "Kalibracja kamery to proces wyznaczania parametrów wewnętrznych (ogniskowa, punkt centralny, zniekształcenia) i zewnętrznych. Cel: poprawne przeliczanie relacji scena-obraz, usuwanie dystorsji i pomiary geometryczne. Niezbędna w robotyce mobilnej i rekonstrukcji 3D.",
+      "punkty": 4
     },
     {
       "id": "31",
       "typ": "otwarte",
       "metoda_weryfikacji": "pelna_odpowiedz",
-      "wartosc": "Odometria to metoda szacowania zmiany pozycji robota na podstawie danych z czujników ruchu (np. enkoderów). Wymagania: robot musi posiadać czujniki obrotu kół oraz znaną geometrię (kinematykę). Zalety: jest tania, działa w czasie rzeczywistym i nie wymaga infrastruktury zewnętrznej. Wady: narastający błąd (dryft), który wynika z poślizgów kół, nierówności terenu oraz błędów systematycznych (np. różna średnica kół).",
-      "punkty": 15
+      "wartosc": "Odometria to metoda szacowania zmiany pozycji na podstawie pomiaru ruchu własnego (np. enkodery). Wymaga znajomości modelu kinematycznego. Zalety: prostota, niski koszt. Wady: kumulacja błędów w czasie (dryft) wynikająca z poślizgów kół i nierówności podłoża.",
+      "punkty": 4
     },
     {
       "id": "32",
       "typ": "otwarte",
       "metoda_weryfikacji": "pelna_odpowiedz",
-      "wartosc": "SLAM (Simultaneous Localization and Mapping) to jednoczesna lokalizacja i budowanie mapy. Służy do autonomicznej nawigacji w nieznanym środowisku. Polega na tym, że robot tworzy mapę otoczenia i jednocześnie określa swoje położenie na tej mapie. Wymaga czujników dystansowych (Lidar, kamery głębi, Kinect), dużej mocy obliczeniowej oraz algorytmów do rozpoznawania znanych punktów (zamykanie pętli - loop closure) w celu redukcji błędów odometrii.",
-      "punkty": 20
+      "wartosc": "SLAM (Simultaneous Localization and Mapping) to jednoczesna lokalizacja i budowa mapy nieznanego otoczenia. Służy do nawigacji bez gotowej mapy. Wymaga czujników dystansowych (lidar, kamery), modelu ruchu oraz mechanizmu 'zamykania pętli' (loop closure) do redukcji dryfu.",
+      "punkty": 4
     }
   ]
 }

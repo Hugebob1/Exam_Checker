@@ -1,6 +1,6 @@
 {
-    "wynik": "69/135",
-    "procent": "51.11%",
+    "wynik": "27.5/50",
+    "procent": "55.0%",
     "szczegoly": [
         {
             "id": "1",
@@ -145,79 +145,86 @@
         {
             "id": "21",
             "typ": "otwarte",
-            "zdobyte_punkty": 3,
-            "max_punktów": 5,
-            "komentarz": "Uczeń wymienił część wymaganych elementów, ale brakuje odniesienia do \"lead-through\", \"walk-through\" oraz \"offline\"."
+            "zdobyte_punkty": 1.0,
+            "max_punktów": 1,
+            "komentarz": "Uczeń wymienił wszystkie wymagane metody programowania maszyn, choć użył nieco innego słownictwa."
         },
         {
             "id": "22",
             "typ": "otwarte",
-            "zdobyte_punkty": 4,
-            "max_punktów": 10,
-            "komentarz": "Uczeń wymienił istotne czujniki, ale nie uwzględnił wszystkich typów eksteroreceptorów."
+            "zdobyte_punkty": 1.0,
+            "max_punktów": 1,
+            "komentarz": "Uczeń podał poprawne przykłady urządzeń do pomiarów środowiska zewnętrznego."
         },
         {
             "id": "23",
             "typ": "otwarte",
-            "zdobyte_punkty": 3,
-            "max_punktów": 5,
-            "komentarz": "Uczeń podał liczbę 4, ale nie użył wymaganych słów kluczowych."
+            "zdobyte_punkty": 1.0,
+            "max_punktów": 1,
+            "komentarz": "Poprawna liczba par punktów (4) i użycie synonimu \"pary\" zamiast \"pary punktów\"."
         },
         {
             "id": "24",
             "typ": "otwarte",
-            "zdobyte_punkty": 2,
-            "max_punktów": 5,
-            "komentarz": "Odpowiedź ucznia jest częściowo poprawna, ale brakuje wyjaśnienia kontekstu i pełnej definicji."
+            "zdobyte_punkty": 1.0,
+            "max_punktów": 1,
+            "komentarz": "Prawidłowa i konkretna nazwa systemu."
         },
         {
             "id": "25",
             "typ": "otwarte",
-            "zdobyte_punkty": 2,
-            "max_punktów": 10,
-            "komentarz": "Odpowiedź częściowo zgodna z wzorcem, brakuje wyjaśnienia zjawiska."
+            "zdobyte_punkty": 0.5,
+            "max_punktów": 1,
+            "komentarz": "Odpowiedź niejasna i niepełna, brak opisu zniekształceń geometrycznych."
         },
         {
             "id": "26",
             "typ": "otwarte",
-            "zdobyte_punkty": 4,
-            "max_punktów": 5,
-            "komentarz": "Uczeń wymienił większość wymaganych elementów, ale pominął \"unikalne tekstury powierzchni\"."
+            "zdobyte_punkty": 1.0,
+            "max_punktów": 1,
+            "komentarz": "Uczeń podał poprawne przykłady znaczników naturalnych, choć w nieco innym sformułowaniu niż wzorzec."
         },
         {
             "id": "27",
             "typ": "otwarte",
-            "zdobyte_punkty": 5,
-            "max_punktów": 15,
-            "komentarz": "Uczeń wymienił niektóre elementy układu, ale brakuje odniesienia do percepcji, przetwarzania sygnałów i pętli sprzężenia."
+            "zdobyte_punkty": 2.5,
+            "max_punktów": 4,
+            "komentarz": "Uczeń poprawnie opisał podstawowe elementy układu sensorycznego, ale brakuje mu pełnego zrozumienia roli i funkcji całego systemu w kontekście autonomicznej pracy robota."
         },
         {
             "id": "28",
             "typ": "otwarte",
-            "zdobyte_punkty": 2,
-            "max_punktów": 10,
-            "komentarz": "Odpowiedź ucznia jest ogólna, ale wskazuje na zrozumienie funkcji czujników w robotach. Brakuje jednak konkretnych przykładów i opisu działania czujników aktywnych."
+            "zdobyte_punkty": 1.5,
+            "max_punktów": 4,
+            "komentarz": "Uczeń opisał ogólnie zastosowanie czujników w robotach, ale nie sprecyzował, że chodzi o czujniki aktywne ani nie podał przykładów."
         },
         {
             "id": "29",
             "typ": "otwarte",
-            "zdobyte_punkty": 12,
-            "max_punktów": 15,
-            "komentarz": "Odpowiedź ucznia zawiera większość wymaganych elementów, w tym stabilność dynamiczną, teren nieuporządkowany, szybką adaptację i stabilność statyczną. Brakuje jednak bezpośredniego odniesienia do serwonapędów i Boston D"
+            "zdobyte_punkty": 3.5,
+            "max_punktów": 4,
+            "komentarz": "Uczeń poprawnie opisał zalety nowoczesnych maszyn kroczących, ich zdolność do pracy w trudnym terenie i stabilność, ale pominął szczegóły dotyczące napędów, układów sensorycznych i sterowania opartego na modelach dynamiki."
+        },
+        {
+            "id": "30",
+            "typ": "otwarte",
+            "zdobyte_punkty": 2.5,
+            "max_punktów": 4,
+            "komentarz": "Uczeń opisał niektóre aspekty kalibracji kamery, ale brakuje pełnego zrozumienia celu i kontekstu.\n\nUzasadnienie:\n1) Uczeń wspomniał o punktowaniu obrazu, co jest częścią procesu kalibracji, ale nie wyjaśnił, dlaczego jest to istotne.\n2) Opisał dokładne pomiary, co jest ważne w kalibracji, ale nie powiązał tego z poprawą relacji scena-obraz.\n3) Wymienił liczbę zdjęć i odległości, co jest istotne dla kalibracji, ale nie wspomniał o celu tych działa"
         },
         {
             "id": "31",
             "typ": "otwarte",
-            "zdobyte_punkty": 10,
-            "max_punktów": 15,
-            "komentarz": "Uczeń poprawnie opisał odometrię i jej rodzaje, wymienił część wad, ale pominął informacje o wymaganiach i zaletach."
+            "zdobyte_punkty": 3.5,
+            "max_punktów": 4,
+            "komentarz": "Uczeń poprawnie opisał podstawowe zasady odometrii, wymienił jej rodzaje oraz zidentyfikował główne źródła błędów. Jednakże, nie wspomniał o konieczności znajomości modelu kinematycznego ani o zaletach i wadach tej metody."
         },
         {
             "id": "32",
             "typ": "otwarte",
-            "zdobyte_punkty": 17,
-            "max_punktów": 20,
-            "komentarz": "Odpowiedź ucznia jest kompletna i zgodna z wzorcem, choć nieco mniej szczegółowa. Uczeń prawidłowo opisał istotę SLAM, wymienił czujniki i algorytm zamykania pętli."
+            "zdobyte_punkty": 3.5,
+            "max_punktów": 4,
+            "komentarz": "Uczeń poprawnie opisał istotę SLAM, wymienił zastosowane czujniki i mechanizm zamykania pętli. Pominął jednak informację o modelu ruchu i redukcji dryfu."
         }
     ]
 }

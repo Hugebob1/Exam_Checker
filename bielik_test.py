@@ -21,7 +21,7 @@ class Asses:
         self.user_map = {item['id']: item for item in self.user_answers['arkusz']}
 
         self.exam_max_points = 0
-        self.user_score = 0
+        self.user_score = 0.0
         self.results_list = []
 
     def print_jsons(self):
@@ -64,22 +64,30 @@ class Asses:
                     else:
                         wzorzec_str = f"Wzorcowa odpowiedź: {q_correct_val}"
 
-                    prompt = f"""Jesteś rzetelnym egzaminatorem. Twoim zadaniem jest ocena odpowiedzi ucznia na podstawie podanego wzorca.
-                    Zadanie jest warte maksymalnie {points} pkt.
-        
-                    KONTEKST:
-                    {wzorzec_str}
-        
-                    ODPOWIEDŹ UCZNIA:
-                    "{u_val}"
-        
-                    ZASADY OCENY:
-                    1. Porównaj sens odpowiedzi ucznia z wzorcem.
-                    2. Przyznaj punkty w skali od 0 do {points}.
-                    3. Jeśli odpowiedź jest częściowa, przyznaj odpowiednio mniej punktów.
-                    4. Odpowiedz WYŁĄCZNIE w formacie: WYNIK: [liczba] PKT | UZASADNIENIE: [krótkie zdanie]
-        
-                    Przykład: WYNIK: 3 PKT | UZASADNIENIE: Uczeń wymienił połowę wymaganych elementów.
+                    prompt = f"""Jesteś profesjonalnym egzaminatorem przedmiotów technicznych. Twoim zadaniem jest sprawiedliwa ocena odpowiedzi ucznia na podstawie dostarczonego wzorca merytorycznego. 
+                        Zadanie jest warte maksymalnie {points} pkt.
+                        
+                        KONTEKST (WZORZEC):
+                        {wzorzec_str}
+                        
+                        ODPOWIEDŹ UCZNIA:
+                        "{u_val}"
+                        
+                        ZASADY OCENY:
+                        1. MERYTORYKA PRZEDE WSZYSTKIM: Oceniaj wiedzę techniczną i intencję ucznia. Nie odejmuj punktów za brak identycznego słownictwa, jeśli uczeń użył synonimów lub opisał zjawisko własnymi słowami w sposób poprawny.
+                        2. DOKŁADNOŚĆ PUNKTACJI: Możesz wystawiać punkty ułamkowe z krokiem 0.5 PKT (np. 0.5, 1.0, 1.5, 2.0 itd.).
+                        3. PYTANIA KRÓTKIE (Waga <= 1 PKT): Są to pytania o konkretne fakty. Spodziewaj się zwięzłości. Jeśli uczeń podał merytoryczne "sedno" (nawet jednym słowem lub krótką frazą), przyznaj 100% punktów. Daj 0.5 PKT tylko jeśli odpowiedź jest bardzo niejasna lub niepełna.
+                        4. PYTANIA ROZBUDOWANE (Waga > 1 PKT): 
+                           - Szukaj zrozumienia procesów i przyczynowości.
+                           - Jeśli uczeń poprawnie opisał mechanizm działania, ale pominął drugorzędne detale (np. konkretne nazwy środowisk programistycznych czy parametry poboczne), przyznaj wysoką notę (np. 3.5/4 lub 4/4).
+                           - Punktuj cząstkowo za każdą poprawną część skomplikowanej odpowiedzi.
+                        5. BŁĘDY: Obniżaj punktację znacząco tylko w przypadku błędów rzeczowych (nieprawda techniczna) lub całkowitego pomylenia definicji.
+                        
+                        WYMAGANY FORMAT ODPOWIEDZI (BEZ WYJĄTKÓW):
+                        WYNIK: [liczba] PKT | UZASADNIENIE: [krótkie zdanie lub slowo w jednej linii]
+                        
+                        Przykład: WYNIK: 3.5 PKT | UZASADNIENIE: Uczeń rozumie istotę SLAM, pominął jedynie techniczny aspekt zamykania pętli.
+                        Przykład: WYNIK: 1 PKT | UZASADNIENIE: Prawidłowa i konkretna nazwa systemu.
                     """
 
                     response = llm.create_chat_completion(
@@ -89,18 +97,21 @@ class Asses:
                             {"role": "user", "content": prompt}
                         ],
                         temperature=0.1,  # Niska temperatura dla stabilności ocen
-                        max_tokens=100
+                        max_tokens=200
                     )
 
                     feedback = response["choices"][0]["message"]["content"]
 
                     try:
+                        parts = feedback.split("|")
+                        score_part = parts[0].replace("WYNIK:", "").replace("PKT", "").strip()
+                        current_points = float(score_part.replace(',', '.'))
 
-                        score_str = feedback.split("WYNIK:")[1].split("PKT")[0].strip()
-                        justification_str = feedback.split("UZASADNIENIE:")[1].strip()
-                        current_points = int(float(score_str))
+                        justification_str = parts[1].replace("UZASADNIENIE:", "").strip()
+
                         self.user_score += current_points
                         print(f"Zadanie {q_id}: {current_points}/{points} pkt. (Feedback: {feedback})")
+
                         self.results_list.append({
                             "id": q_id,
                             "typ": "otwarte",
@@ -109,7 +120,7 @@ class Asses:
                             "komentarz": justification_str
                         })
                     except Exception as e:
-                        print(f"Błąd parsowania wyniku dla zadania {q_id}. Bielik napisał: {feedback}")
+                        print(f"Błąd parsowania wyniku dla zadania {q_id}. Bielik napisał: {feedback}. Szczegóły: {e}")
 
             else:
                 print(f"Zadanie {q_id}: Brak odpowiedzi (0/{points})")
@@ -132,3 +143,7 @@ class Asses:
         print("Everything went well results saved!")
         print(f"\nres: {self.user_score}/{self.exam_max_points}")
 
+bielik = Asses()
+bielik.print_jsons()
+bielik.give_score()
+bielik.save_data()
